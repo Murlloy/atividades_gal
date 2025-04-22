@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulario</title>
+    <link rel="stylesheet" href="styles/formulario.css">
+</head>
+<body>
+    <form action="action">
+
+        <img src="" alt="">
+
+        <article>
+            <div></div>
+            <h1>Registro de entrada de veículos</h1>
+            <section>
+                <p>funcionario.sobrenome@empresa.com</p>
+                <strong>Seu e-mail será registrado quando você enviar este formulário.</strong>
+            </section>
+            <p>* Indica uma pergunta obrigatória</p>
+        </article>
+
+        <div class="form-input">
+            <label for="placa">Placa</label>
+            <input type="text" name="placa">
+        </div>
+
+        <div class="form-input">
+            <label for="placa">Horario de Entrada</label>
+            <input type="datetime-local" name="data_hora_entrada">
+        </div>
+
+        <div class="form-input">
+            <label for="placa">Horario de Saida</label>
+            <input type="datetime-local" name="data_hora_saida">
+        </div>
+
+        <div class="form-input">
+            <label for="placa">Vaga</label>
+            <select id="id">
+                <option value="value">25</option>
+            </select>
+        </div>
+
+        <button type="submit">Enviar</button>
+    </form>
+</body>
+</html>
